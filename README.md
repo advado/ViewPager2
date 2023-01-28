@@ -5,7 +5,7 @@
 - Splash screen
 - Navigation Component
 
---
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/59710234/215250541-d9b44e46-efbf-49d1-a1b9-cb3cb1f1fc79.gif)
 
 - Introduction
 - Create Splash Screen (Fragment)
