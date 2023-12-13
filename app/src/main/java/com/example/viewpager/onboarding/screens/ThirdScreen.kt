@@ -27,7 +27,6 @@ class ThirdScreen: Fragment(R.layout.fragment_third_screen) {
 
         return view
     }
-
     private fun onBoardingFinished(){
         val sharedPref = requireActivity().getSharedPreferences("onBoarding", Context.MODE_PRIVATE)
         val editor = sharedPref.edit()

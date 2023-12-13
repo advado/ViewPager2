@@ -15,7 +15,7 @@ class SplashFragment : Fragment(R.layout.fragment_splash) {
         super.onViewCreated(view, savedInstanceState)
 
         Handler(Looper.getMainLooper()).postDelayed({
-            // Your Code
+            // Check if the user has Completed Onboarding
             if (onBoardingFinished()) {
                 findNavController().navigate(
                     R.id.action_splashFragment_to_homeFragment,
